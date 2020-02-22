@@ -9,7 +9,7 @@ class App extends React.Component {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
-            Edit <code>src/App.js</code> and save to reload Part 4
+            Edit <code>src/App.js</code> and save to reload Part 5
           </p>
           <a
             className="App-link"
@@ -25,9 +25,9 @@ class App extends React.Component {
   }
 }
 
-export default App
+// export default App
 
-// export default withAuthenticator(App)
+export default withAuthenticator(App)
 
 // function App() {
 //   return (
